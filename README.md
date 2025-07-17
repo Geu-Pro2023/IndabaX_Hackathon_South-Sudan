@@ -1,4 +1,4 @@
-# IndabaX_Hackathon_South-Sudan - Dreamers Team
+# IndabaX Hackathon South-Sudan - Dreamers Team
 ## Application of Machine Learning Techniques in Real-Time Data
 
 A real-time weather classification web app built for the **IndabaX South Sudan 2025 - Intermediate Track Hackathon**, under the theme:
