@@ -46,15 +46,15 @@ Our solution includes:
 
 ## Dreamers Team Dreamers
 
-We are a team of five final-year software Engineering students passionate about AI for social impact from African Leaderhsip Univeristy, Rwanda:
+We are a team of five final-year software Engineering students passionate about AI for social impact from African Leadership University (ALU), Rwanda
 
-| Name                      | Program                | Specialization                | Contribution            | School
-|---------------------------|------------------------|-------------------------------|-------------------------|-----------
-| Madol Abraham Kuol        | Software Engineering   | Machine Learning & APIs       | Backend & Model         | African Leadership Univeristy (ALU)
-| John Akech                | Software Engineering   | Machine Learning & Frontend   | Frontend & Fine-Tunning | African Leadership Univeristy (ALU)
-| Geu Aguto Garang          | Software Engineering   | Machine Learning & Blockchain | Frontend (HTML, CSS)    | African Leadership Univeristy (ALU)
-| Jok James Dut             | Software Engineering   | Machine Learning & Mobile App | Styling & UI Testing    | African Leadership Univeristy (ALU)
-| Kuir Juach Kuir           | Software Engineering   | Machine Learning & UI/UX      | Data Preprocessing      | African Leadership Univeristy (ALU)
+| Name                         | Program                | Specialization         | Contribution                              | School
+|------------------------------|------------------------|------------------------|-------------------------------------------|------------------------------
+| Madol Abraham Kuol           | Software Engineering   | Machine Learning       | Data Preprocessing & Config               | African Leadership Univeristy
+| John Deng Madit              | Software Engineering   | Machine Learning       | Model Architecture & Frontend             | African Leadership Univeristy
+| Geu Aguto Garang             | Software Engineering   | Machine Learning       | Transfer learning - Fine-tuning           | African Leadership Univeristy
+| Jok James Dut                | Software Engineering   | Machine Learning       | Test Dataset Prediction & Frontend        | African Leadership Univeristy
+| Kuir Juach Kuir              | Software Engineering   | Machine Learning       | Model Visualizations & Documentation      | African Leadership Univeristy
 
 ---
 
