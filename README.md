@@ -3,8 +3,6 @@
 
 A real-time weather classification web app built for the **IndabaX South Sudan 2025 - Intermediate Track Hackathon**, under the theme:
 
----
-
 ## Project Overview
 
 This project is a submission by **Team Dreamers** for the IndabaX South Sudan AI Hackathon. The competition challenged participants to build a weather condition classification model and **deploy it with a real-time user interface** to boost social impact through applied AI.
@@ -15,7 +13,6 @@ Our solution includes:
 - A modern, responsive frontend built with HTML, Tailwind CSS, and vanilla JavaScript.
 - A UI that allows users to upload an image and see predicted weather conditions instantly.
 
----
 
 ## 🌐 Live Demo
 
@@ -23,15 +20,12 @@ Our solution includes:
 
 🔗 Real Website: Click: [Visit the Live Demo](https://neon-malabi-b731a8.netlify.app)
 
----
 
 ## Model
 
 - **Architecture:** Transfer learning with EfficientNetB3 / MobileNetV2
 - **Accuracy:** Achieved over 96% test accuracy
 - **Framework:** TensorFlow 2.16 (CPU)
-
----
 
 ## Features
 
@@ -41,7 +35,6 @@ Our solution includes:
 - Fully responsive design
 - Weather-inspired color theme
 
----
 
 ## Dreamers Team Dreamers
 
@@ -55,7 +48,6 @@ We are a team of five final-year software Engineering students passionate about 
 | Jok James Dut                | Software Engineering   | Machine Learning       | Test Dataset Prediction & Frontend        | African Leadership Univeristy
 | Kuir Juach Kuir              | Software Engineering   | Machine Learning       | Model Visualizations & Documentation      | African Leadership Univeristy
 
----
 
 ## Tech Stack
 
@@ -64,7 +56,6 @@ We are a team of five final-year software Engineering students passionate about 
 - **Modeling:** TensorFlow, Keras
 - **Deployment:** Render (for API), Static Hosting (for Frontend)
 
----
 
 ## Project Structure
 
