@@ -22,7 +22,7 @@ Our solution includes:
 
 ## 🌐 Live Demo
 
-🔗 [Visit the Live App](https://dreamers-weather-classification.onrender.com)
+🔗 [Visit the Live App](https://dreamers-weather-classification.onrender.com/docs)
 
 ---
 
