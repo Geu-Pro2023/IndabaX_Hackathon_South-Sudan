@@ -20,9 +20,9 @@ Our solution includes:
 
 ## 🌐 Live Demo
 
-🔗 [Visit the Live App](https://dreamers-weather-classification.onrender.com/docs)
+🔗 FastAPI: [Visit the Live App](https://dreamers-weather-classification.onrender.com/docs)
 
-🔗 [Visit the Live App](https://neon-malabi-b731a8.netlify.app)
+🔗 Real Website: [Visit the Live App](https://neon-malabi-b731a8.netlify.app)
 
 ---
 
