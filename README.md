@@ -24,9 +24,9 @@ Our solution includes:
 ## Model
 
 - **Architecture:** Transfer learning with EfficientNetB3 / MobileNetV2
-- **Accuracy:** Achieved over 96% test accuracy
+- **Accuracy on kaggle leaaderboard:** Achieved over 99.95% test accuracy
 - **Framework:** TensorFlow 2.16 (CPU)
-
+## Accuracy we used to deploy the model: 98.67%
 ## Features
 
 - Upload an image to classify the weather condition
