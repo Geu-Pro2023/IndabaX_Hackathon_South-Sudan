@@ -19,9 +19,9 @@ Our solution includes:
 
 ## 🌐 Live Demo
 
-🔗 FastAPI: Click: [Visit the Live UI](https://dreamers-weather-classification.onrender.com/docs)
+🔗 FastAPI: Click: [Visit the Live Demo](https://dreamers-weather-classification.onrender.com/docs)
 
-🔗 Real Website: Click: [Visit the Live UI](https://neon-malabi-b731a8.netlify.app)
+🔗 Real Website: Click: [Visit the Live Demo](https://neon-malabi-b731a8.netlify.app)
 
 ---
 
