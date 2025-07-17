@@ -1,0 +1,36 @@
+/* Scroll Reveal Animation */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animation for cards */
+.feature-card.reveal-hidden,
+.weather-card.reveal-hidden,
+.stat-card.reveal-hidden,
+.team-member.reveal-hidden {
+  transition-delay: calc(var(--reveal-index, 0) * 0.1s);
+}
+
+/* Different animations for different elements */
+.feature-card.reveal-hidden {
+  transform: translateY(40px) scale(0.95);
+}
+
+.weather-card.reveal-hidden {
+  transform: translateY(30px) rotate(-2deg);
+}
+
+.stat-card.reveal-hidden {
+  transform: translateY(20px) scale(0.9);
+}
+
+.section-header.reveal-hidden {
+  transform: translateY(20px);
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - WeatherVision</title>
+  <meta name="description" content="Learn about WeatherVision, an AI-powered weather prediction tool built for Indabax South Sudan.">
+  <meta name="author" content="WeatherVision Team">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/enhanced.css">
+  <link rel="stylesheet" href="css/scroll-reveal.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/scrollbar.css">
+  <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <div class="logo">
+          <img src="images/logo.png" alt="WeatherVision Logo" class="logo-image">
+          <span class="logo-text">WeatherVision</span>
+        </div>
+        
+        <div class="nav-links">
+          <!-- Navigation links will be dynamically populated from config.js -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="about-page">
+    <div class="container">
+      <!-- Header -->
+      <div class="section-header">
+        <h1 class="section-title">
+          About <span class="gradient-text">WeatherVision</span>
+        </h1>
+        <p class="section-description">
+          WeatherVision is an advanced AI-powered application that analyzes images to predict weather conditions 
+          with high accuracy using state-of-the-art machine learning techniques.
+        </p>
+      </div>
+
+      <!-- What WeatherVision Does -->
+      <div class="card about-card">
+        <h2 class="card-title">
+          <i class="fa-solid fa-brain icon-primary"></i>
+          What WeatherVision Does
+        </h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Our application leverages deep learning and computer vision to automatically analyze weather patterns 
+              in uploaded images. The AI model has been trained on thousands of weather images to recognize and 
+              classify different atmospheric conditions.
+            </p>
+            <p>
+              Simply upload any image containing weather elements, and WeatherVision will instantly provide you with 
+              an accurate prediction of the weather conditions present in the image, along with a confidence score.
+            </p>
+          </div>
+          <div class="features-list">
+            <h3>Key Features:</h3>
+            <ul>
+              <li>Real-time image analysis</li>
+              <li>High-accuracy weather classification</li>
+              <li>Confidence scoring for predictions</li>
+              <li>Support for multiple image formats</li>
+              <li>Responsive web interface</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Statistics -->
+      <div class="stats-grid">
+        <!-- Stats will be dynamically populated from config.js -->
+      </div>
+
+      <!-- Dataset Information -->
+      <div class="card about-card">
+        <h2 class="card-title">
+          <i class="fa-solid fa-database icon-primary"></i>
+          Dataset Information
+        </h2>
+        <div class="dataset-info">
+          <div>
+            <h3>Multi-class Weather Dataset</h3>
+            <p>
+              Our model is trained on the comprehensive Multi-class Weather Dataset. This dataset provides a diverse collection of weather images across multiple categories, 
+              ensuring robust performance across various weather conditions.
+            </p>
+            <div class="tags">
+              <span class="tag">High Quality Images</span>
+              <span class="tag">Balanced Dataset</span>
+              <span class="tag">Peer Reviewed</span>
+            </div>
+          </div>
+
+          <div>
+            <h3>Weather Class Breakdown</h3>
+            <div class="weather-classes">
+              <!-- Weather classes will be dynamically populated from config.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Details -->
+      <div class="card about-card">
+        <h2 class="card-title">Technical Implementation</h2>
+        <div class="tech-details">
+          <div>
+            <h3>Model Architecture</h3>
+            <ul>
+              <li>Convolutional Neural Network (CNN) based model</li>
+              <li>Transfer learning from pre-trained vision models</li>
+              <li>Data augmentation for improved generalization</li>
+              <li>Optimized for real-time inference</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Performance Metrics</h3>
+            <ul>
+              <li>Overall accuracy: 94.2%</li>
+              <li>Cross-validation tested</li>
+              <li>Balanced precision and recall</li>
+              <li>Fast inference time (&lt;100ms)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team & Credits -->
+      <div class="card about-card">
+        <h2 class="card-title">
+          <i class="fa-solid fa-users icon-primary"></i>
+          Team & Credits
+        </h2>
+        <div class="team-section">
+          <div class="team-header">
+            <h3>Development Team - <span id="team-name">DREAMERS</span></h3>
+            <p>
+              WeatherVision was developed as part of the Indabax South Sudan initiative, showcasing the power 
+              of AI and machine learning in solving real-world problems in the African context.
+            </p>
+          </div>
+          
+          <div class="team-showcase">
+            <div class="team-members-wrapper">
+              <div class="team-members" id="team-members-list">
+                <!-- Team members will be dynamically populated from config.js -->
+              </div>
+            </div>
+          </div>
+          
+          <div class="team-footer">
+            <div class="team-highlight">
+              <p>Built for Indabax South Sudan</p>
+            </div>
+            
+            <div class="acknowledgments">
+              <h3>Acknowledgments</h3>
+              <ul>
+                <li>Indabax South Sudan organizers</li>
+                <li>Contributors and testers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- External Links
+      <div class="external-links">
+        <h3>Learn More</h3>
+        <div class="links-container">
+          <External links will be dynamically populated from config.js -->
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2025 WeatherVision — Built for Indabax South Sudan
+      </p>
+    </div>
+  </footer>
+
+  <!-- Configuration and JavaScript -->
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/team-members.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+</body>
+</html>

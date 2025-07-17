@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predict Weather - Indabax South Sudan WeatherVision</title>
+  <meta name="description" content="Upload an image and predict weather conditions in real time using AI. Built for Indabax South Sudan.">
+  <meta name="author" content="WeatherVision Team">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/enhanced.css">
+  <link rel="stylesheet" href="css/scroll-reveal.css">
+  <link rel="stylesheet" href="css/prediction.css">
+  <link rel="stylesheet" href="css/upload.css">
+  <link rel="stylesheet" href="css/scrollbar.css">
+  <link rel="stylesheet" href="css/visualization.css">
+  <link rel="stylesheet" href="css/notification.css">
+  <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <div class="logo">
+          <img src="images/logo.png" alt="WeatherVision Logo" class="logo-image">
+          <span class="logo-text">Indabax South Sudan WeatherVision</span>
+        </div>
+        
+        <div class="nav-links">
+          <!-- Navigation links will be dynamically populated from config.js -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="predict-page">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="section-title" id="predict-title">Weather Prediction</h1>
+        <p class="section-description" id="predict-description">
+          Upload an image and let our AI analyze the weather conditions
+        </p>
+      </div>
+
+      <div class="predict-grid">
+        <!-- Upload Section -->
+        <div class="card upload-card">
+          <h2 class="card-title">Upload Image</h2>
+          
+          <div id="upload-area" class="upload-area">
+            <i class="fa-solid fa-upload upload-icon"></i>
+            <p class="upload-text">Drop your image here or click to browse</p>
+            <p class="upload-hint" id="upload-formats-hint">Supports PNG, JPG, JPEG (max 10MB)</p>
+          </div>
+          
+          <div id="preview-container" class="preview-container hidden">
+            <div class="image-preview">
+              <img id="image-preview" src="#" alt="Weather image preview">
+            </div>
+            <div class="preview-actions">
+              <button id="change-image-btn" class="btn btn-outline">Choose Different Image</button>
+              <button id="predict-btn" class="btn btn-primary">
+                <i class="fa-solid fa-image"></i>
+                Predict Weather
+              </button>
+            </div>
+          </div>
+
+          <input type="file" id="file-input" accept="image/*" class="hidden">
+        </div>
+
+        <!-- Results Section -->
+        <div class="card results-card">
+          <h2 class="card-title">Prediction Results</h2>
+          
+          <div id="empty-state" class="results-state">
+            <i class="fa-solid fa-image results-icon empty"></i>
+            <p class="results-text">Upload an image to see the weather prediction</p>
+          </div>
+
+          <div id="loading-state" class="results-state hidden">
+            <i class="fa-solid fa-spinner fa-spin results-icon loading"></i>
+            <p class="results-text">Analyzing weather conditions...</p>
+            <p class="results-hint">This may take a few seconds</p>
+          </div>
+
+          <div id="error-state" class="results-state hidden">
+            <i class="fa-solid fa-circle-exclamation results-icon error"></i>
+            <p class="results-text error">Prediction Failed</p>
+            <p class="results-hint" id="error-message">Failed to predict weather. Please try again.</p>
+          </div>
+
+          <div id="success-state" class="results-state hidden">
+            <i class="fa-solid fa-circle-check results-icon success"></i>
+            <h3 id="prediction-label" class="prediction-label"></h3>
+            <p class="results-text">Weather Condition Detected</p>
+            
+            <div class="confidence-meter">
+              <div class="confidence-header">
+                <span>Confidence</span>
+                <span id="confidence-value"></span>
+              </div>
+              <div class="confidence-bar">
+                <div id="confidence-fill" class="confidence-fill"></div>
+              </div>
+            </div>
+
+            <div class="prediction-summary">
+              <p>
+                The AI model has analyzed your image and detected 
+                <span id="prediction-text" class="prediction-text"></span> 
+                weather conditions with 
+                <span id="confidence-text" class="prediction-text"></span> 
+                confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Visualization Section -->
+  <section class="visualization-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Prediction Analytics</h2>
+        <p class="section-description">
+          Visualizations based on your prediction history
+        </p>
+      </div>
+      
+      <div class="visualization-controls">
+        <button id="clear-history-btn" class="btn btn-outline">
+          <i class="fa-solid fa-trash"></i> Clear History
+        </button>
+        <button id="save-visualizations-btn" class="btn btn-primary">
+          <i class="fa-solid fa-download"></i> Save Predictions
+        </button>
+      </div>
+      
+      <div id="visualization-container">
+        <!-- Visualizations will be dynamically populated -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2025 WeatherVision — Built for Indabax South Sudan
+      </p>
+    </div>
+  </footer>
+
+  <!-- External Libraries -->
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  
+  <!-- Configuration and JavaScript -->
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/notification.js"></script>
+  <script src="js/predict.js"></script>
+  <script src="js/visualization.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <!-- Notification Container -->
+  <div class="notification-container" id="notification-container"></div>
+</body>
+</html>

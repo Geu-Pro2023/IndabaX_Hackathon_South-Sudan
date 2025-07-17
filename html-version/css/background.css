@@ -1,0 +1,26 @@
+/* Background styles */
+body {
+  background-image: url('../images/Background Image.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add semi-transparent overlay to main content for better readability */
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: var(--radius);
+  margin-top: 1rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-cloud);
+}
+
+/* Adjust navbar for the background */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Adjust footer for the background */
+.footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}

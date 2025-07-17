@@ -1,0 +1,30 @@
+.team-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.team-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.acknowledgments {
+  margin-top: 1.5rem;
+}
+
+/* Override team members display for horizontal layout */
+.team-members {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.team-member {
+  width: 180px;
+  flex-shrink: 0;
+}
