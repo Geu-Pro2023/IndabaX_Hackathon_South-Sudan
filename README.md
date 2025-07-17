@@ -1,4 +1,4 @@
-# IndabaX Hackathon South-Sudan - Dreamers Team
+# IndabaX Hackathon South Sudan
 ## Application of Machine Learning Techniques in Real-Time Data
 
 A real-time weather classification web app built for the **IndabaX South Sudan 2025 - Intermediate Track Hackathon**, under the theme:
@@ -60,11 +60,11 @@ We are a team of five final-year software Engineering students passionate about 
 ## Project Structure
 
 ```plaintext
-├── api/                      # FastAPI backend
-│   ├── main.py               # Inference endpoint
-│   └── model/                # Saved model files
-├── frontend/                 # Tailwind-based frontend
-│   └── index.html            # Main UI
+├── FastAPI/                      # FastAPI backend
+│   ├── main.py                   # Inference endpoint
+│                  
+├── html-version (UI)/            # Tailwind-based frontend
+│   └── index.html                # Main UI
 ├── requirements.txt
 └── README.md
 ```
@@ -74,21 +74,30 @@ We are a team of five final-year software Engineering students passionate about 
 ```
 cd api
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn main: app --reload
 ```
 ### 2. Frontend
-Simply open ```index.html``` in your browser or host using any static server (like VSCode Live Server).
+Simply open ```index.html``` in your browser or host it using any static server (such as VSCode Live Server).
 
 ## Hackathon Details
 - Organizer: IndabaX South Sudan
 - Track: Intermediate
 - Challenge: Real-time data application with ML
 - Submission Format: 226-row CSV with predicted labels
-- Bonus Points: Real-time UI integration ✅
+- Bonus Points: Real-time UI integration 
 
 ## UI Interface
-1. Front-end Website
-2. Backend
+**1. Front-end Website**
+<img width="1434" height="684" alt="image3" src="https://github.com/user-attachments/assets/bee135f7-e262-4d3c-9e1a-b4ad16f28733" />
+
+<img width="1425" height="691" alt="image4" src="https://github.com/user-attachments/assets/1fdc551e-d54e-4520-9d56-b6b632e45775" />
+
+  
+**3. Backend - FastAPI**
+<img width="1426" height="624" alt="image1" src="https://github.com/user-attachments/assets/f30baa7c-264c-40bc-83db-1cf1977df260" />
+
+<img width="1418" height="593" alt="image2" src="https://github.com/user-attachments/assets/fae76342-e017-498c-8664-62488da3397e" />
+
 
 ## Acknowledgements
 - Sponsored by **IndabaX South Sudan**
