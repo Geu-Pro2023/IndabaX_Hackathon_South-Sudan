@@ -15,7 +15,7 @@ const weatherVisionConfig = {
         { name: "Madol Abraham", role: "ML Engineer" },
         { name: "John Akech", role: "ML Engineer" },
         { name: "Geu Aguto", role: "ML Engineer" },
-        { name: "Jok James Dut", role: "ML Engineer" },
+        { name: "James Jok Dut", role: "ML Engineer" },
         { name: "Kuir Juach Kuir", role: "ML Engineer" }
       ]
     }

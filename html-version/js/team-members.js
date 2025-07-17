@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Madol Abraham': 'images/Madol Abraham.jpg',
       'John Akech': 'images/John Akech.png',
       'Geu Aguto': 'images/Geu Aguto Garang.jpg',
-      'Jok James Dut': 'images/James.JPG',
-      'Kuir Juach Kuir': 'images/Kuir Juach Kuir.png'
+      'James Jok Dut': 'images/James.jpg',
+      'Kuir Juach Kuir': 'images/Kuir Juach Kuir.png',
     };
     
     weatherVisionConfig.app.team.members.forEach((member, index) => {

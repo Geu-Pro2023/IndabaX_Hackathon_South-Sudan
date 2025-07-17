@@ -227,9 +227,9 @@ function populateDynamicContent() {
       // Handle special cases for image filenames
       if (member === 'Geu Aguto') {
         imagePath = 'images/Geu Aguto Garang.jpg';
-      } else if (member === 'Jok James Dut') {
+      } else if (member === 'James Jok Dut') {
         // Ensure Jok James Dut's image is properly referenced
-        imagePath = 'images/Jok James Dut.jpg';
+        imagePath = 'images/James.jpg';
       } else {
         imagePath = `images/${member}.${member === 'John Akech' || member === 'Kuir Juach Kuir' ? 'png' : 'jpg'}`;
       }
