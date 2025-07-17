@@ -17,7 +17,7 @@ Our solution includes:
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demonistration
 
 🔗 FastAPI: Click: [Visit the Live Demo](https://dreamers-weather-classification.onrender.com/docs)
 
