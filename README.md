@@ -3,7 +3,6 @@
 
 A real-time weather classification web app built for the **IndabaX South Sudan 2025 - Intermediate Track Hackathon**, under the theme:
 
-
 ---
 
 ## Project Overview
@@ -20,9 +19,9 @@ Our solution includes:
 
 ## 🌐 Live Demo
 
-🔗 FastAPI: [Visit the Live App](https://dreamers-weather-classification.onrender.com/docs)
+🔗 FastAPI: Click: [Visit the Live UI](https://dreamers-weather-classification.onrender.com/docs)
 
-🔗 Real Website: [Visit the Live App](https://neon-malabi-b731a8.netlify.app)
+🔗 Real Website: Click: [Visit the Live UI](https://neon-malabi-b731a8.netlify.app)
 
 ---
 
