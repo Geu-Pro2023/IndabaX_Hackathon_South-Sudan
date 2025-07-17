@@ -105,8 +105,8 @@ Simply open ```index.html``` in your browser or host using any static server (li
 
 ## Contact
 If you want to collaborate or learn more:
-📧 g.bior@alustudent.com
-📧 j.akech@alustudent.com
-📧 k.juach@alustudent.com
-📧 Johnakec12@gmail.com
-📧 m.madol@alustudent.com
+- 📧 g.bior@alustudent.com
+- 📧 j.akech@alustudent.com
+- 📧 k.juach@alustudent.com
+- 📧 Johnakec12@gmail.com
+- 📧 m.madol@alustudent.com
