@@ -1,10 +1,8 @@
-# Dreamers Weather Classification App
-
-![Weather Banner](https://images.unsplash.com/photo-1500839941678-aae14dbfae9d?fit=crop&w=1280&q=80)
+# IndabaX_Hackathon_South-Sudan - Dreamers Team
+## Application of Machine Learning Techniques in Real-Time Data
 
 A real-time weather classification web app built for the **IndabaX South Sudan 2025 - Intermediate Track Hackathon**, under the theme:
 
-> _Application of Machine Learning Techniques in Real-Time Data_
 
 ---
 
@@ -24,6 +22,8 @@ Our solution includes:
 
 🔗 [Visit the Live App](https://dreamers-weather-classification.onrender.com/docs)
 
+🔗 [Visit the Live App](https://neon-malabi-b731a8.netlify.app)
+
 ---
 
 ## Model
@@ -36,7 +36,7 @@ Our solution includes:
 
 ## Features
 
-- Upload an image to classify weather condition
+- Upload an image to classify the weather condition
 - Supports categories like sunny, cloudy, rainy, foggy, etc.
 - Real-time prediction using REST API
 - Fully responsive design
