@@ -16,15 +16,16 @@ Our solution includes:
 
 ## 🌐 Live Demo
 
-🔗 FastAPI: Click: [Visit the Live Demo](https://dreamers-weather-classification.onrender.com/docs)
+🔗 FastAPI: Click: https://dreamers-weather-classification.onrender.com/docs
 
-🔗 Real Website: Click: [Visit the Live Demo](https://neon-malabi-b731a8.netlify.app)
+🔗 Real Website: Click: https://neon-malabi-b731a8.netlify.app
+
 
 
 ## Model
 
 - **Architecture:** Transfer learning with EfficientNetB3 / MobileNetV2
-- **Accuracy on kaggle leaaderboard:** Achieved over 99.95% test accuracy
+- **Accuracy on kaggle leaderboard:** Achieved over 99.95% test accuracy
 - **Framework:** TensorFlow 2.16 (CPU)
 ## Accuracy we used to deploy the model: 98.67%
 ## Features
@@ -87,13 +88,15 @@ Simply open ```index.html``` in your browser or host it using any static server 
 - Bonus Points: Real-time UI integration 
 
 ## UI Interface
-**1. Front-end Website**
+
+### **1. Website**
 <img width="1434" height="684" alt="image3" src="https://github.com/user-attachments/assets/bee135f7-e262-4d3c-9e1a-b4ad16f28733" />
 
 <img width="1425" height="691" alt="image4" src="https://github.com/user-attachments/assets/1fdc551e-d54e-4520-9d56-b6b632e45775" />
 
+
   
-**3. Backend - FastAPI**
+### **3. Backend - FastAPI**
 <img width="1426" height="624" alt="image1" src="https://github.com/user-attachments/assets/f30baa7c-264c-40bc-83db-1cf1977df260" />
 
 <img width="1418" height="593" alt="image2" src="https://github.com/user-attachments/assets/fae76342-e017-498c-8664-62488da3397e" />
