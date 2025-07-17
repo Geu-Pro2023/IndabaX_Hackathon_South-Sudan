@@ -17,7 +17,7 @@ Our solution includes:
 
 ---
 
-## 🌐 Live Demonistration
+## 🌐 Live Demo
 
 🔗 FastAPI: Click: [Visit the Live Demo](https://dreamers-weather-classification.onrender.com/docs)
 
@@ -76,3 +76,37 @@ We are a team of five final-year software Engineering students passionate about 
 │   └── index.html            # Main UI
 ├── requirements.txt
 └── README.md
+```
+
+## How to Run Locally
+### 1. Backend (FastAPI)
+```
+cd api
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+### 2. Frontend
+Simply open ```index.html``` in your browser or host using any static server (like VSCode Live Server).
+
+## Hackathon Details
+- Organizer: IndabaX South Sudan
+- Track: Intermediate
+- Challenge: Real-time data application with ML
+- Submission Format: 226-row CSV with predicted labels
+- Bonus Points: Real-time UI integration ✅
+
+## UI Interface
+1. Front-end Website
+2. Backend
+
+## Acknowledgements
+- Sponsored by **IndabaX South Sudan**
+- Special thanks to the mentors, organizers, and the Kaggle community
+
+## Contact
+If you want to collaborate or learn more:
+📧 g.bior@alustudent.com
+📧 j.akech@alustudent.com
+📧 k.juach@alustudent.com
+📧 Johnakec12@gmail.com
+📧 m.madol@alustudent.com
