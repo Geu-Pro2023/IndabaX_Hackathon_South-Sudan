@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="css/visualization.css">
   <link rel="stylesheet" href="css/notification.css">
   <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/responsive-nav.css">
 </head>
 <body>
   <!-- Navigation -->
@@ -34,12 +35,16 @@
       <div class="navbar-content">
         <div class="logo">
           <img src="images/favicon.png" alt="WeatherVision Logo" class="logo-image">
-          <span class="logo-text">South Sudan WeatherVision</span>
+          <span class="logo-text">WeatherVision</span>
         </div>
         
         <div class="nav-links">
           <!-- Navigation links will be dynamically populated from config.js -->
         </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </div>
   </nav>
@@ -161,7 +166,7 @@
   <footer class="footer">
     <div class="container">
       <p class="footer-text">
-        © 2025 WeatherVision — Built for Indabax South Sudan
+        © <script>document.write(new Date().getFullYear())</script> WeatherVision — Built for Indabax South Sudan
       </p>
     </div>
   </footer>
