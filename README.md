@@ -78,7 +78,7 @@ pip install -r requirements.txt
 uvicorn main: app --reload
 ```
 ### 2. Frontend
-Simply open ```index.html``` in your browser or host it using any static server (such as VSCode Live Server).
+Open ```index.html``` in your browser or host it using any static server (such as VSCode Live Server).
 
 ## Hackathon Details
 - Organizer: IndabaX South Sudan
