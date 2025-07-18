@@ -18,7 +18,7 @@ Our solution includes:
 
 🔗 FastAPI: Click: https://dreamers-weather-classification.onrender.com/docs
 
-🔗 Real Website: Click: https://neon-malabi-b731a8.netlify.app
+🔗 Real Website: Click: https://indaba-ml-app.netlify.app/
 
 
 
