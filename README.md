@@ -24,8 +24,8 @@ Our solution includes:
 
 ## Model
 
-- **Architecture:** Transfer learning with EfficientNetB3 / MobileNetV2
-- **Accuracy on kaggle leaderboard:** Achieved over 99.95% test accuracy
+- **Architecture:** Transfer learning with MobileNetV2
+- **Accuracy on kaggle leaderboard:** Achieved over 98.67% test accuracy
 - **Framework:** TensorFlow 2.16 (CPU)
 ## Accuracy we used to deploy the model: 98.67%
 ## Features
@@ -111,5 +111,5 @@ If you want to collaborate or learn more:
 - 📧 g.bior@alustudent.com
 - 📧 j.akech@alustudent.com
 - 📧 k.thuch@alustudent.com
-- 📧 Johnakec12@gmail.com
+- 📧 J.akuei@alustudent.com
 - 📧 m.madol@alustudent.com
