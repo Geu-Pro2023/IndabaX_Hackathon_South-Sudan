@@ -82,7 +82,7 @@ function populateDynamicContent() {
   const footerText = document.querySelectorAll('.footer-text');
   const currentYear = new Date().getFullYear();
   footerText.forEach(element => {
-    element.innerHTML = `© ${currentYear} ${weatherVisionConfig.app.name} — Built for Indabax South Sudan`;
+    element.innerHTML = `© ${currentYear} ${weatherVisionConfig.app.name}`;
   });
   
   // Update hero section
