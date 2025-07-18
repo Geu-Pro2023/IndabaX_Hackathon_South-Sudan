@@ -16,6 +16,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   
+  // Mobile menu toggle functionality
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  const navLinksContainer = document.querySelector('.nav-links');
+  
+  if (mobileMenuToggle && navLinksContainer) {
+    mobileMenuToggle.addEventListener('click', () => {
+      navLinksContainer.classList.toggle('active');
+      
+      // Change icon based on menu state
+      const icon = mobileMenuToggle.querySelector('i');
+      if (navLinksContainer.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      } else {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      }
+    });
+    
+    // Close mobile menu when clicking on a link
+    navLinksContainer.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinksContainer.classList.remove('active');
+        const icon = mobileMenuToggle.querySelector('i');
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      });
+    });
+  }
+  
   // Populate dynamic content from config
   populateDynamicContent();
 });
@@ -50,8 +80,9 @@ function populateDynamicContent() {
   populateNavigation();
   // Update app name and year in footer
   const footerText = document.querySelectorAll('.footer-text');
+  const currentYear = new Date().getFullYear();
   footerText.forEach(element => {
-    element.innerHTML = `© ${weatherVisionConfig.app.year} ${weatherVisionConfig.app.name} — Built by <span class="team-name">${weatherVisionConfig.app.team.name}</span> for ${weatherVisionConfig.app.organization}`;
+    element.innerHTML = `© ${currentYear} ${weatherVisionConfig.app.name} — Built for Indabax South Sudan`;
   });
   
   // Update hero section

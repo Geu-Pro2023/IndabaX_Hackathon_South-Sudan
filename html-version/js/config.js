@@ -4,7 +4,7 @@
 const weatherVisionConfig = {
   // Application information
   app: {
-    name: "Indabax South Sudan WeatherVision",
+    name: "WeatherVision",
     tagline: "Weather Prediction",
     description: "Upload an image and predict weather conditions in real time using AI.",
     year: "2025",
@@ -88,8 +88,8 @@ const weatherVisionConfig = {
   
   // Model statistics
   modelStats: {
-    trainingImages: "5,000+",
-    accuracy: "94.2%",
+    trainingImages: "1,125",
+    accuracy: "98.67%",
     architecture: "CNN",
     weatherClasses: 4
   },
