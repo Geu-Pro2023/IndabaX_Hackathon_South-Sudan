@@ -1,11 +1,11 @@
-# IndabaX Hackathon South Sudan
+# IndabaX Hackathon South Sudan 2025
 ## Application of Machine Learning Techniques in Real-Time Data
 
 A real-time weather classification web app built for the **IndabaX South Sudan 2025 - Intermediate Track Hackathon**, under the theme:
 
 ## Project Overview
 
-This project is a submission by **Team Dreamers** for the IndabaX South Sudan AI Hackathon. The competition challenged participants to build a weather condition classification model and **deploy it with a real-time user interface** to boost social impact through applied AI.
+This project is a submission by **DREAMERSs** for the IndabaX South Sudan AI Hackathon. The competition challenged participants to build a weather condition classification model and **deploy it with a real-time user interface** to boost social impact through applied AI.
 
 Our solution includes:
 - A trained CNN model using EfficientNet/MobileNet on a labeled image dataset.
@@ -37,17 +37,17 @@ Our solution includes:
 - Weather-inspired color theme
 
 
-## Dreamers Team Dreamers
+## Team DREAMERS
 
 We are a team of five final-year software Engineering students passionate about AI for social impact from African Leadership University (ALU), Rwanda
 
-| Name                         | Program                | Specialization         | Contribution                              | School
+| DREAMERS                         | Program                | Specialization         | Contribution                              | School
 |------------------------------|------------------------|------------------------|-------------------------------------------|------------------------------
-| Madol Abraham Kuol           | Software Engineering   | Machine Learning       | Data Preprocessing & Config               | African Leadership Univeristy
-| John Deng Madit              | Software Engineering   | Machine Learning       | Model Architecture & Frontend             | African Leadership Univeristy
-| Geu Aguto Garang             | Software Engineering   | Machine Learning       | Transfer learning - Fine-tuning           | African Leadership Univeristy
-| Jok James Dut                | Software Engineering   | Machine Learning       | Test Dataset Prediction & Frontend        | African Leadership Univeristy
-| Kuir Juach Kuir              | Software Engineering   | Machine Learning       | Model Visualizations & Documentation      | African Leadership Univeristy
+| 1. Madol Abraham Kuol           | Software Engineering   | Machine Learning       | Data Preprocessing & Config               | African Leadership University
+| 2. John Deng Madit              | Software Engineering   | Machine Learning       | Model Architecture & Frontend             | African Leadership University
+| 3. Geu Aguto Garang             | Software Engineering   | Machine Learning       | Transfer learning - Fine-tuning           | African Leadership University
+| 4. Jok James Dut                | Software Engineering   | Machine Learning       | Test Dataset Prediction & Frontend        | African Leadership University
+| 5. Kuir Juach Kuir              | Software Engineering   | Machine Learning       | Model Visualizations & Documentation      | African Leadership University
 
 
 ## Tech Stack
@@ -83,6 +83,7 @@ Open ```index.html``` in your browser or host it using any static server (such a
 ## Hackathon Details
 - Organizer: IndabaX South Sudan
 - Track: Intermediate
+- Team: **DREAMERS**
 - Challenge: Real-time data application with ML
 - Submission Format: 226-row CSV with predicted labels
 - Bonus Points: Real-time UI integration 
