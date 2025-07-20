@@ -5,7 +5,7 @@ A real-time weather classification web app built for the **IndabaX South Sudan 2
 
 ## Project Overview
 
-This project is a submission by **DREAMERSs** for the IndabaX South Sudan AI Hackathon. The competition challenged participants to build a weather condition classification model and **deploy it with a real-time user interface** to boost social impact through applied AI.
+This project is a submission by **DREAMERS** for the IndabaX South Sudan AI Hackathon. The competition challenged participants to build a weather condition classification model and **deploy it with a real-time user interface** to boost social impact through applied AI.
 
 Our solution includes:
 - A trained CNN model using EfficientNet/MobileNet on a labeled image dataset.
